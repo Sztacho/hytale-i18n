@@ -22,6 +22,9 @@ jobs:
           distribution: temurin
           java-version: "21"
 
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
       - name: Publish to local Maven repo folder
         run: ./gradlew publishMavenJavaPublicationToGitHubPagesRepository
 
@@ -31,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: build/maven-repo
+          enable_jekyll: false
