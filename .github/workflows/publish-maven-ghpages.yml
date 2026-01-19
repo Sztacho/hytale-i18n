@@ -1,0 +1,33 @@
+name: Publish Maven Repo to gh-pages
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+      - "*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Publish to local Maven repo folder
+        run: ./gradlew publishMavenJavaPublicationToGitHubPagesRepository
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: build/maven-repo
