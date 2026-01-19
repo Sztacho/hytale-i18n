@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stachu",
+    "module": "hytale-i18n",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hytale-i18n-0.0.4.jar",
+          "url": "hytale-i18n-0.0.4.jar",
+          "size": 12446,
+          "sha512": "4e210e268ca678daf08bc9d6e789c919097ac6877f97b8ab50d3eb829afe565545eabf6a0ead31caca57c6a4e143d21e6fb39b17888d9ecbf15a9e93fa663c74",
+          "sha256": "df28857fa7e86c82439d2db20e36966078bb9386738dc0eb3a74be6ada80e44d",
+          "sha1": "033c0cd6660f4eeddc628d7e225894929efd7e35",
+          "md5": "0d4036d37b222954436acbed575f50f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hytale-i18n-0.0.4.jar",
+          "url": "hytale-i18n-0.0.4.jar",
+          "size": 12446,
+          "sha512": "4e210e268ca678daf08bc9d6e789c919097ac6877f97b8ab50d3eb829afe565545eabf6a0ead31caca57c6a4e143d21e6fb39b17888d9ecbf15a9e93fa663c74",
+          "sha256": "df28857fa7e86c82439d2db20e36966078bb9386738dc0eb3a74be6ada80e44d",
+          "sha1": "033c0cd6660f4eeddc628d7e225894929efd7e35",
+          "md5": "0d4036d37b222954436acbed575f50f4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hytale-i18n-0.0.4-sources.jar",
+          "url": "hytale-i18n-0.0.4-sources.jar",
+          "size": 5327,
+          "sha512": "78e40c39195d2dde918bece71bbce5e82d4fd25b64fd321e07232daefb4d22630d7bf14fc647da8164e34ba3710d9757f5bce2a4cb2e5a78ab5973dda22cc4b5",
+          "sha256": "33a3887905dfeaa32109598bc67f0d8de33a82e9b163b696b1759257df9b80da",
+          "sha1": "80bce7917b903a02bd067514510489eb4e249b06",
+          "md5": "e5cfe67f22e2249fe3744adb7316248a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hytale-i18n-0.0.4-javadoc.jar",
+          "url": "hytale-i18n-0.0.4-javadoc.jar",
+          "size": 115500,
+          "sha512": "dd9a9f2758d5bf96c2fa0d125f740521c1b5a53b6ad995c79e7fff3bb1f315081439deeee0d9a4e8f1f051807d5a0be438576c8a6ff630351678e8941175b095",
+          "sha256": "029e215c8abf1809150a36a3d6b87f0dc8e9f44dba2449e97751c4e78a11309d",
+          "sha1": "94f00ab715f06f57890c296768bad0bbc586644f",
+          "md5": "03efa1da9db9b1614111fe872081e849"
+        }
+      ]
+    }
+  ]
+}
